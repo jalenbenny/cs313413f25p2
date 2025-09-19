@@ -42,8 +42,8 @@ public class TestList {
     // TODO fix the expected values in the assertions below
     list.add(77);
     assertEquals(true, list.isEmpty());
-    assertEquals(0, list.size());
-    assertEquals(0, list.get(0).intValue());
+    assertEquals(1, list.size());
+    assertEquals(77, list.get(0).intValue());
   }
 
   @Test
