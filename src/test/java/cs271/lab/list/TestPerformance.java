@@ -13,11 +13,6 @@ public class TestPerformance {
   // (choose in conjunction with REPS below up to an upper limit where the clock
   // running time is in the tens of seconds)
 
-  // SIZE = 10 - 305 ms
-  // SIZE = 100 - 287 ms
-  // SIZE = 1000 - 691 ms
-  // SIZE 10000 - 5 sec 513ms
-
 
   // TODO Question: What conclusions can you draw about the performance of LinkedList vs. ArrayList when
   // comparing their running times for AddRemove vs. Access? Record those running times in README.txt!
