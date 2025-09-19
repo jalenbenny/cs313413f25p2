@@ -22,10 +22,14 @@ public class TestPerformance {
   // TODO Question: What conclusions can you draw about the performance of LinkedList vs. ArrayList when
   // comparing their running times for AddRemove vs. Access? Record those running times in README.txt!
 
-  // Linked List vs ArrayList would make not make functiona differences for operatoins, only performance differences.
+  // Linked List vs ArrayList would make not make l differences for operatoins, only performance differences.
+  // Use ArrayList for random access, LinkedList for changes at beginning (insertions/removals)
 
   // TODO (optional) refactor to DRY
   // which of the two lists performs better as the size increases?
+
+  // LinkedList for Add/Remove, ArrayList for Access operations
+
   private final int SIZE = 10;
 
   // TODO choose this value in such a way that you can observe an actual effect
